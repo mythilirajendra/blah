@@ -1,0 +1,242 @@
+"Failed to create datastores from private volumes: '10.144.12.27 doesn not have private volume
+New-Datastore : Cannot validate argument on parameter 'Path'. The argument is null or empty. Provide an argument that 
+is not null or empty, and then try the command again.
+At C:\Jenkins\workspace\release-tests\sat-synergy-gen2\tests\cosmos\SAT2_GEN1\psscripts\CreatePrivateDatastore.ps1:34 
+char:56
++     New-Datastore -vmhost $server -Name $ds_name -Path $ln -Vmfs -Fil ...
++                                                        ~~~
+    + CategoryInfo          : InvalidData: (:) [New-Datastore], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,VMware.VimAutomation.ViCore.Cmdlets.Commands.Host.NewDa 
+   tastore
+ 
+success' does not match 'success'",environment issue
+There were 3 failing tasks.,environment issue
+"1) There were 10 failing tasks.
+
+2) 'Dictionary does not contain key 'details'.' != 'The requested resource could not be found.'",environment issue
+"Failed to complete task, error = (vim.fault.InvalidPowerState) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   msg = 'The attempted operation cannot be performed in the current state (Powered off).',
+   faultCause = <unset>,
+   faultMessage = (vmodl.LocalizableMessage) [],
+   requestedState = 'poweredOn',
+   existingState = 'poweredOff'
+}",environment issue
+taskState not found in last GET on task uri: /rest/tasks/ad0f40b1-d59e-4b21-9289-3e2e27e28001,automation issue
+"ManagedObjectNotFound: (vmodl.fault.ManagedObjectNotFound) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   msg = ""The object 'vim.Datastore:datastore-6271' has already been deleted or has not been completely created"",
+   faultCause = <unset>,
+   faultMessage = (vmodl.LocalizableMessage) [],
+   obj = 'vim.Datastore:datastore-6271'
+}",environment issue
+Error in email message removal operation. Exception: -ERR Message corrupted,environment issue
+Variable '${type}' not found.,automation issue
+There were 1 failing tasks.,environment issue
+"actMessage not matching expected error message.
+Task Message:Some parameters were invalid in the request. 
+RecommendedActions:[u'Correct the invalid parameters and retry the request.'] 
+errorCode:INVALID_REQUEST_PARAMETERS ",product issue
+Profile name [Server_profile_edit] Expected status OK but found Critical,environment issue
+Cloning to VMs failed,environment issue
+Resolving variable '${server['uri']}' failed: KeyError: 'uri',automation issue
+Keyword 'Appliance is pingable' failed after retrying for 1 minute,automation issue
+"('Exception occurred while attempting to POST: https://16.114.212.143/rest/appliance/support-dumps', ProxyError(MaxRetryError('HTTPSConnectionPool(host=\'16.114.212.143\', port=443): Max retries exceeded with url: /rest/appliance/support-dumps (Caused by ProxyError(\'Cannot connect to proxy.\', error(""(10054, \'WSAECONNRESET\')"",)))',),))",product issue
+Task Error but no expected error was specified.,environment issue
+"No match found for 'root' in 35 seconds
+Output:
+.",environment issue
+"1) False != True
+
+2) False != True
+
+3) False != True
+
+4) False != True
+
+5) False != True
+
+6) False != True
+
+7) False != True
+
+8) False != True
+
+9) False != True
+
+10) False != True
+
+11) False != True",automation issue
+"1) 400 != 202
+
+2) actMessage not matching expected error message.
+Task Message:Another logical interconnect group with that name already exists: ConcurrentPotash 
+RecommendedActions:[u'Retry the last operation with a unique and valid logical interconnect group name.'] 
+errorCode:CRM_DUPLICATE_LOGICAL_SWITCH_TEMPLATE_NAME ",environment issue
+TypeError: argument of type 'bool' is not iterable,automation issue
+/rest/storage_volume_uri_vol11_not_found,environment issue
+"Server name [Enclosure1, bay 5] Expected Status 'OK' but found Warning",environment issue
+Appliance Critical alerts: 10: 10 != 0,environment issue
+"(u'Exception occurred while attempting to POST FILE: https://172.24.1.101/rest/firmware-bundles', ConnectionError(ProtocolError('Connection aborted.', error(""(32, 'EPIPE')"",)),))",environment issue
+1) Adding Active Directory AD Failed 2) Failed to get domain id for Active Directory AD,environment issue
+KuiilPotash_extRepo query in OneView returned unexpected members.,automation issue
+Maximum limit of started keywords exceeded.,automation issue
+Critical failure occurred and exit-on-failure mode is in use.,environment issue
+Keyword 'IC reached state' failed after retrying for 1 hour.,automation issue
+"(u'Exception occurred while attempting to DELETE: https://16.114.217.100/rest/login-sessions', ConnectionError(MaxRetryError(""HTTPSConnectionPool(host='16.114.217.100', port=443)",environment issue
+AttributeError: 'FusionLibrary' object has no attribute 'fusion_api_appliance_version',automation issue
+Server Profiles has uncleared alerts,product issue
+"1) Maximum limit of started keywords exceeded.
+
+2) Maximum limit of started keywords exceeded.
+
+3) Maximum limit of started keywords exceeded.
+
+4) Maximum limit of started keywords exceeded.
+
+5) Maximum limit of started keywords exceeded.
+
+6) Maximum limit of started keywords exceeded.
+
+7) Maximum limit of started keywords exceeded.",automation issue
+Critical failure occurred and exit-on-failure mode is in use.,environment issue
+There are errors create profile or verify resources.,environment issue
+"Failed to complete task, error = (vim.fault.CannotAccessVmConfig) {",environment issue
+1' should not be true.,environment issue
+Variable '${deploy_vsphere}' not found.,automation issue
+Failed to deploy OVA: 'ExecutionFailed' object has no attribute 'fp',automation issue
+Execution terminated by signal,environment issue
+"(u'Exception occurred while attempting to GET: https://10.120.12.214/rest/appliance/nodeinfo/version', ConnectionError(MaxRetryError",environment issue
+Dictionary does not contain key 'count'.,automation issue
+"1) KeyError: 'enclosureUris'
+
+2) Verify LogicalEnclosureV5 LE_DCS failed
+
+3) Interconnect 0000A66101, interconnect 2 is not in Configured State
+
+4) Interconnect 0000A66102, interconnect 2 is not in Configured State
+
+5) Interconnect 0000A66101, interconnect 3 is not in Configured State
+
+6) Interconnect 0000A66101, interconnect 5 is not in Configured State
+
+7) Interconnect 0000A66102, interconnect 6 is not in Configured State
+
+8) Interconnect 0000A66101, interconnect 6 is not in Configured State
+
+9) Interconnect 0000A66102, interconnect 3 is not in Configured State
+
+10) 7 != 0",automation issue
+KeyError: 'members',automation issue
+'False' should be true.,environment issue
+'Error' does not match 'Completed',environment issue
+Error in email message removal operation. Exception: -ERR Message corrupted,environment issue
+"Could not deploy new VM MANIFEST
++ <ManifestValidate valid=""false""/>
+
+PROGRESS
+
+
+ERROR
++ <Errors>
++ <Error>
++ <Type>ovftool.http.size.mismatch</Type>
++ <LocalizedMsg>
++ Size mismatch during data transfer; expect 1030962 bytes to read but 1992657408 bytes are pending to read. Source file may be corrupted
++ </LocalizedMsg>
++ <Arg>
++ 1030962
++ </Arg>
++ <Arg>
++ 1992657408
++ </Arg>
++ </Error>
++ </Errors>
+
+RESULT
++ ERROR
+",environment issue
+Replacing variables from keyword return value failed: Variable '${member}' not found,automation issue
+"(u'Exception occurred while attempting to GET: https://10.120.12.217/rest/appliance/nodeinfo/version', ExecutionFailed('Execution terminated by signal',))",environment issue
+Editing the Connection in SPT is failed,product issue
+Test execution stopped due to a fatal error.,environment issue
+Invalid 'Return From Keyword' usage.,automation issue
+Not all forked tasks state finished with Completed...,automation issue
+"1) Critical/Active alerts exist.
+
+2) Unlinked != Linked
+
+3) Critical != OK
+
+4) Unlinked != Linked
+
+5) Critical != OK
+
+6) Unlinked != Linked
+
+7) Critical != OK
+
+8) Unlinked != Linked
+
+9) Critical != OK",environment issue
+Failed to establish communication.,environment issue
+"Multiple keywords with name 'Deepcopy' found. Give the full name of the keyword you want to use:
+    copy.Deepcopy
+    logical_interconnect.Deepcopy",automation issue
+"1) Validate Enclosure EnclosureF1 failed
+
+2) Validate Enclosure EnclosureF2 failed",environment issue
+"1) Verify ServerProfileV12 Server_profile_enc1_3 failed
+
+2) Verify ServerProfileV12 Server_profile_enc1_4 failed
+
+3) Verify ServerProfileV12 Server_profile_enc1_6 failed
+
+4) Verify ServerProfileV12 Server_profile_enc1_7 failed
+
+5) Verify ServerProfileV12 Server_profile_enc1_8 failed
+
+6) Verify ServerProfileV12 Server_profile_enc1_9 failed
+
+7) Verify ServerProfileV12 Server_profile_enc1_10 failed",environment issue
+Traps validation failed,environment issue
+No keyword with name 'Get OVA Build' found.,automation issue
+No IP address returned from vSphere,environment issue
+HTTPConflict: Conflict (HTTP 409) 34 - resource in use,environment issue
+Test execution stopped due to a fatal error.,environment issue
+Error in email message removal operation. Exception: -ERR Message corrupted,environment issue
+"Could not deploy new VM ERROR
++ <Errors>
++ <Error>
++ <Type>ovftool.http.open</Type>
++ <LocalizedMsg>
++ Could not open URL http://ci-artifacts04.vse.rdlabs.hpecorp.net/omni/rel/5.40/OVA/SSH/HPEOneView-SSH_5.50.00-0425812_PASS23.ova (response code: 404)
++ </LocalizedMsg>
++ <Arg>
++ http://ci-artifacts04.vse.rdlabs.hpecorp.net/omni/rel/5.40/OVA/SSH/HPEOneView-SSH_5.50.00-0425812_PASS23.ova
++ </Arg>
++ <Arg>
++ 404
++ </Arg>
++ </Error>
++ </Errors>
+
+RESULT
++ ERROR
+",environment issue
+Firmware bundles are not retained after OV upgrade,product issue
+"Parent suite teardown failed:
+IndexError: list index out of range",automation issue
+Several failures occurred:1) Maximum limit of started keywords exceeded.,automation issue
+Task resource name [Enclosure1] Expected Completed but found Warning ,environment issue
+TypeError: 'dict' object is not callable,automation issue
+Variable '${ov_update_version}' not found.,automation issue
+Variable '${upgrade_end_time}' not found.,automation issue
+"Drive Enclosure name [Enclosure1, bay 1] Expected status OK but found Warning",environment issue
+Resolving variable '@{enclosures['members']}' failed,automation issue
+Dictionary does not contain key 'eTag'.,automation issue
+UnboundLocalError: local variable 'rc' referenced before assignment,automation issue
+Keyword 'Get VM original_centos_c7k2_enc1 IP Address' failed,automation issue
+Keyword 'Host In Cluster Should Be In Connected State' failed,automation issue
